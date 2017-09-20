@@ -19,7 +19,7 @@ class CreateArticlesTable extends Migration
             $table->text('description');
             $table->string('image');
             $table->string('url');
-            $table->date('posted_at');
+            $table->string('posted_at');
             $table->timestamps();
         });
     }
